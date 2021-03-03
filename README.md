@@ -1,5 +1,35 @@
 # GifsApp
 
+## Código para realizar el desarrollo del proyecto
+
+Este proyecto en Angular consiste en consumir una API llamada https://developers.giphy.com/
+
+
+![](images/1.png)
+
+
+'''
+ng new gifsApp
+ng serve -o
+
+Creacion modulo shared
+ng g m shared 
+ng g c shared/sidebar --skipTests -is 
+
+Creacion modulo gifs
+ng g m gifs
+ng g c gifs/gifsPage --skipTests -is
+ng g c gifs/busqueda --skipTests -is 
+ng g c gifs/resultados --skipTests -is
+
+Creación servicio 
+ng g s gifs/services/gifs --skipTests 
+'''
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
 
 ## Development server
@@ -27,20 +57,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 
-
-
-ng new gifsApp
-ng serve -o
-
-Creacion modulo shared
-ng g m shared 
-ng g c shared/sidebar --skipTests -is 
-
-Creacion modulo gifs
-ng g m gifs
-ng g c gifs/gifsPage --skipTests -is
-ng g c gifs/busqueda --skipTests -is 
-ng g c gifs/resultados --skipTests -is
-
-
-![](images/img3.png)
