@@ -1,6 +1,6 @@
 # GifsApp
 
-## Código para realizar el desarrollo del proyecto
+## Descripción del proyecto
 
 Este proyecto en Angular consiste en consumir una API llamada https://developers.giphy.com/
 
