@@ -8,7 +8,9 @@ Este proyecto en Angular consiste en consumir una API llamada https://developers
 ![](images/1.png)
 
 
-'''
+## Códigos ejecutados en consola o terminal 
+
+```
 ng new gifsApp
 ng serve -o
 
@@ -24,7 +26,7 @@ ng g c gifs/resultados --skipTests -is
 
 Creación servicio 
 ng g s gifs/services/gifs --skipTests 
-'''
+```
 
 
 
